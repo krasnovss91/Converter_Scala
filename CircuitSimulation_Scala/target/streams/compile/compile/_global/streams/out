@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/user/untitled2/project/target/.sbt-compilation-infos/untitled2-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/untitled2/src/main/scala/MySimulation.scala:7:42: reference to Wire is ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0mit is both defined in class BasicCircuitSimulation and imported subsequently by [0m
+[0m[[0m[31merror[0m] [0m[0mimport MySimulation._[0m
+[0m[[0m[31merror[0m] [0m[0m    val input1, input2, sum, carry = new Wire[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/untitled2/src/main/scala/MySimulation.scala:8:5: reference to probe is ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0mit is both defined in class BasicCircuitSimulation and imported subsequently by [0m
+[0m[[0m[31merror[0m] [0m[0mimport MySimulation._[0m
+[0m[[0m[31merror[0m] [0m[0m    probe("sum",sum)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/untitled2/src/main/scala/MySimulation.scala:9:5: reference to probe is ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0mit is both defined in class BasicCircuitSimulation and imported subsequently by [0m
+[0m[[0m[31merror[0m] [0m[0mimport MySimulation._[0m
+[0m[[0m[31merror[0m] [0m[0m    probe("carry", carry)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/user/untitled2/project/target/.sbt-compilation-infos/untitled2-compile/.sbt-idea-lock.[0m
